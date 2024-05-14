@@ -91,6 +91,11 @@ li::marker{
     padding-top: 50px;
   }
 
+  a{
+    color: hsl(30, 10%, 34%);
+    text-decoration: none;
+  }
+
 
   @media (max-width: 650px) {
     body {
