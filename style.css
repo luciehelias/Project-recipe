@@ -92,9 +92,8 @@ li::marker{
   }
 
 
-  @media (max-width: 375px) {
+  @media (max-width: 650px) {
     body {
-      width: 375px;
       margin: 0; 
       padding: 0;
       background-color: hsl(0, 0%, 100%);
@@ -109,7 +108,7 @@ li::marker{
     .recipe{
       background-color: hsl(0, 0%, 100%);
       padding: 0px;
-
+      width: 100%;
     }
 
     .mobile-design{
