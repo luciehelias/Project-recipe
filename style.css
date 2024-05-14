@@ -4,12 +4,18 @@ body{
   font-size: 16px;
   color: hsl(30, 10%, 34%);
   background-color: hsl(30, 54%, 90%);
-  padding: 50px;
+  padding: 100px;
 }
 
 .recipe{
   background-color: hsl(0, 0%, 100%);
-  padding: 10px;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.paragraph{
+  color: hsl(30, 10%, 34%);
 }
 
 h1,h2, h3{
@@ -18,6 +24,8 @@ h1,h2, h3{
 
 h1{
     color: hsl(24, 5%, 18%);
+    font-size: xx-large;
+    
 }
 
 h2{
@@ -30,6 +38,8 @@ h3{
 
 .Preparation{
 background-color: hsl(330, 100%, 98%);
+padding: 20px;
+border-radius: 10px;
 }
 
 .nutritional{
@@ -39,7 +49,6 @@ background-color: hsl(330, 100%, 98%);
 }
 
 li{
-  color: hsl(14, 45%, 36%);
   margin-bottom: 10px;
 }
 
@@ -49,17 +58,15 @@ img {
   border-radius: 10px;
 }
 
-
-@media (min-width: 1440px) {
-    body {
-      width: 1440px;
-      margin: 0 auto; 
-    }
-  }
-
   @media (max-width: 375px) {
     body {
       width: 375px;
       margin: 0 auto; 
+      background-color: hsl(0, 0%, 100%);
     }
   }
+
+  li::marker{
+  color: hsl(14, 45%, 36%);
+  }
+
